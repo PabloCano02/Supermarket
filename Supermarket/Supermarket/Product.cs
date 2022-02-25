@@ -1,6 +1,6 @@
 ﻿namespace Supermarket
 {
-    public abstract class Product
+    public abstract class Product : IPay
     {
         public string Description { get; set; }
 
